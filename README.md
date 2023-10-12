@@ -14,5 +14,5 @@ response : {
 }
 
 # Report available in the Sentence_Similarity Notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YogJoshi14/Sentence_Similarity/blob/main/Sentence_Similarity.ipynb]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YogJoshi14/Sentence_Similarity/blob/main/Sentence_Similarity.ipynb)
 
