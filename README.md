@@ -2,7 +2,7 @@
 Sentence Similarity is the task of determining how similar two texts are. This task is particularly useful for information retrieval and clustering/grouping.
 
 # End Point API:
-api : https://similarity-bw3ef7bema-uc.a.run.app/calculate_similarity
+api : https://similarity-bw3ef7bema-uc.a.run.app
 
 request_body : {
     "text1": "hi myself",
