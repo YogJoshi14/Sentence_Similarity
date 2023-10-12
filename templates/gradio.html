@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentence Similarity Calculator</title>
+</head>
+<body>
+    <h1>Sentence Similarity Calculator</h1>
+    <div id="gr-interface"></div>
+    <script src="https://cdn.jsdelivr.net/npm/gradio@2.4.0/gradio.min.js"></script>
+    <script>
+        gr("#gr-interface", { server: "http://localhost:5000" });
+    </script>
+</body>
+</html>
