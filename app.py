@@ -36,10 +36,11 @@ with gr.Blocks() as demo:
     btn.click(inference, inputs=[txt, txt_2], outputs=[txt_3])
 
 
-@app.route("/")
-def gradio_interface():
-    return render_template("gradio.html", iface=demo.launch())
+# @app.route("/")
+# def gradio_interface():
+#     return render_template("gradio.html", iface=demo.launch(share=True))
 
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    # app.run(debug=True, host="0.0.0.0", port= 8080)
+    demo.launch()
     
