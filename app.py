@@ -6,7 +6,7 @@ from part_a import inference
 app = Flask(__name__)
 
 
-@app.route('/calculate_similarity', methods=['POST'])
+@app.route('/', methods=['POST'])
 def calculate_similarity():
     try:
         data = request.get_json()
@@ -41,6 +41,6 @@ with gr.Blocks() as demo:
 #     return render_template("gradio.html", iface=demo.launch(share=True))
 
 if __name__ == '__main__':
-    # app.run(debug=True, host="0.0.0.0", port= 8080)
-    demo.launch()
+    app.run(debug=True, host="0.0.0.0", port= 8080)
+    # demo.launch()
     
