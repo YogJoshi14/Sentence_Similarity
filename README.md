@@ -16,3 +16,7 @@ response : {
 # Report available in the Sentence_Similarity Notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YogJoshi14/Sentence_Similarity/blob/main/Sentence_Similarity.ipynb)
 
+# Deployment
+Deployment of app is carried out on Cloud Run from a container registry on Google Cloud Platform.
+
+
